@@ -1,6 +1,11 @@
 from typing import Optional, List, Any
+<<<<<<< HEAD
 from migration_tracking.migration import Migration
 from migration_tracking.migration_path import MigrationPath
+=======
+from migration import Migration
+from migration_path import MigrationPath
+>>>>>>> e061ea3 (uploading)
 from habitat_management.habitat import Habitat
 
 

@@ -1,5 +1,5 @@
 from typing import Optional, Dict, Any
-from    migration_tracking.migration_path import MigrationPath
+from migration_tracking.migration_path import MigrationPath
 class Migration:
 
 
