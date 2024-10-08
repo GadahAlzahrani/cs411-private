@@ -1,8 +1,5 @@
 from typing import Any, List, Optional
-<<<<<<< HEAD
-=======
 
->>>>>>> e061ea3 (uploading)
 from animal_management.animal import Animal
 class Habitat:
 
