@@ -199,6 +199,7 @@ delete_meal 2
 clear_meals
 create_meal "Salad" "Mediterranean" 8 "LOW"
 create_meal "Biryani" "Indian" 14 "HIGH"
+create_meal "Burger" "American" 12 "MED"
 
 # Clear combatants, prep them, and perform battles
 clear_combatants
