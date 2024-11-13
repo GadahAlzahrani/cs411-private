@@ -42,9 +42,10 @@ def test_prep_combatant(battle_model, sample_meal1):
     assert len(battle_model.combatants) == 1
     assert battle_model.combatants[0].meal == 'Meal 1'
 
-def test_prep_combatant_several(sample_battle, sample_meal3):
+def test_prep_combatant_several(battle_model, sample_battle, sample_meal3):
     """Test error when adding a meal to a leaderboard with two combatants."""
-    sample_battle.prep_combatant(sample_meal3)
+    battle_model.combatants.extend(sample_battle)
+    battle_model.prep_combatant(sample_meal3)
     with pytest.raises(ValueError, match="Combatant list is full, cannot add more combatants."):
         sample_battle.prep_combatant(sample_meal3)
 
