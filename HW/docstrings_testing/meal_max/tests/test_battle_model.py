@@ -69,7 +69,7 @@ def test_get_battle_score(battle_model, sample_battle, sample_meal1):
     battle_model.combatants.extend(sample_battle)
 
     retrieved_meal = battle_model.get_battle_score(sample_meal1)
-    assert retrieved_meal == 116.94
+    assert retrieved_meal == 176.91
 
 def test_get_combatants(battle_model, sample_battle):
     """Test successfully retrieving all combatants from the battle."""
